@@ -4,3 +4,4 @@ gradlew.bat linguist-vendored
 client/lib/generated/** linguist-generated
 client/lib/proto/api/** linguist-generated
 *.g.dart linguist-generated
+*.sh text eol=lf
