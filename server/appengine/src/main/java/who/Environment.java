@@ -58,7 +58,7 @@ public enum Environment {
     }
   }
 
-  private static String getApplicationId() {
+  public static String getApplicationId() {
     String applicationId = AppEngine.applicationId();
     if (applicationId == null) {
       return null;
